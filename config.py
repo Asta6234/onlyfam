@@ -32,7 +32,7 @@ DB_URI = "mongodb+srv://arno:MRpH8ZZhu4At4vXw@cluster0.8seupfa.mongodb.net/?retr
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "inshorturl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "d1d928b2c38eea1b33a2c3ea20a618658792cb3d")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "f0fd0f7b9dc3df6f090fced7e6b203820966df40")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","Only_Fam/13")
